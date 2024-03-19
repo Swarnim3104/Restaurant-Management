@@ -1,0 +1,216 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #222; /* Dark background color */
+  color: #fff; /* Light text color */
+}
+
+/* Custom font for restaurant name (Dancing Script) with increased font size */
+.restaurant-name {
+  font-family: 'Dancing Script', cursive;
+  font-size: 36px; /* Adjust the font size as needed */
+  margin-bottom: 20px; /* Increase vertical space below the restaurant name */
+  text-align: center; /* Center-align the restaurant name */
+}
+
+/* ... (Previous CSS rules) */
+
+/* Global styles */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #111; /* Dark background color */
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  z-index: 1000; /* Ensure the header stays on top of other elements */
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 40px;
+}
+
+/* ... (Remaining CSS rules) */
+
+
+/* Remove underline, capitalize, decrease size, and make them bold */
+nav a {
+  text-decoration: none; /* Remove underline */
+  text-transform: uppercase; /* Capitalize text */
+  color: #fff; /* Set link color */
+  font-size: 14px; /* Adjust the font size as needed */
+  font-weight: bold; /* Make them bold */
+}
+
+main {
+  padding: 20px;
+}
+
+/* Home section */
+.home {
+  background-image: url('food-4k-1vrcb0mw76zcg4qf.jpg');
+  background-size: cover ;
+  color: #fff;
+  text-align: center;
+  padding: 100px;
+}
+
+/* Increase the size of "Welcome to Our Restaurant" text and add margin */
+.home h2 {
+  font-size: 36px; /* Adjust the font size as needed */
+  margin-bottom: 10px; /* Add margin below the text */
+  margin-top: 200px; /* Adjust margin to move the text further down */
+}
+
+/* Add margin to the "View Our Menu" button */
+.button {
+  background-color: #d9534f;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 40px; /* Increase margin to move the button further down */
+}
+
+/* Add margin to the paragraph in the home section */
+.home p {
+  margin-bottom: 50px; /* Increase margin below the paragraph */
+}
+
+/* Reservations section */
+.reservations {
+  background-color: #111; /* Dark background color */
+  color: #fff;
+  padding: 20px;
+  text-align: center; /* Center-align the content */
+  margin-top: 90px; /* Move the reservations section down */
+}
+
+.reservation {
+  background-color: #333; /* Slightly lighter background color */
+  padding: 10px; /* Reduce the padding to make it more compact */
+  border-radius: 5px;
+  margin-top: 10px; /* Add margin to move the section content down and align it with the title */
+}
+
+/* Adjust margin to move the "Reservations" text up and add margin below */
+.reservations h2 {
+  margin-top: 0; /* Remove top margin to align with section */
+  margin-bottom: 15px; /* Add margin below the text */
+}
+
+.form-group {
+  margin: 5px 0; /* Reduce the margin to make it more compact */
+  display: flex; /* Use flexbox to align labels and input elements in the same row */
+  align-items: center; /* Center-align elements vertically */
+  justify-content: space-between; /* Separates the labels and input elements */
+}
+
+label {
+  font-weight: bold;
+  margin-left: 450px;
+}
+
+/* Increase the font size of date, time, and party size input elements */
+input[type="date"],
+input[type="time"]/*,
+input[type="number"] */{
+  font-size: 18px; /* Adjust the font size as needed */
+  width: 15%; /* Maintain the reduced width for compactness */
+  padding: 5px; /* Maintain reduced padding */
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-right: 450px;
+}
+input[type="number"] {
+  font-size: 18px; /* Adjust the font size as needed */
+  width: 15%; /* Maintain the reduced width for compactness */
+  padding: 5px; /* Maintain reduced padding */
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-right: 450px;
+  margin-left: 32px;
+}
+
+/* ... (Previous CSS rules) */
+
+/* Add margin to the "Book Table" button and update its styles */
+button {
+  background-color: #d9534f;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px; /* Increase margin to move the button further down */
+  cursor: pointer;
+  border: 1px solid #d9534f; /* Add a 1px solid border matching the background color */
+}
+
+/* ... (Remaining CSS rules) */
+
+
+/* Footer */
+footer {
+  background-color: #111; /* Dark background color */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Add margin-top to the menu section */
+.menu {
+  margin-top: 150px; /* Adjust the value as needed */
+}
+
+/* Increase the margin for vertical spacing between categories */
+/* .menu-category {
+  margin-bottom: 30px;
+} */
+
+/* Menu Styles */
+.menu-category {
+  margin-bottom: 35px; /* Increase the margin for vertical spacing between categories */
+}
+
+.menu-items li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Add margin for vertical spacing between menu items */
+}
+
+.dish {
+  flex: 1;
+}
+
+.price {
+  border-bottom: 1px dotted #aaa; /* Add a dotted line below the price */
+}
+
+/* ... (Previous CSS rules) */
+
+/* Contact section */
+.contact {
+  background-color: #111; /* Dark background color */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px; /* Add margin to separate it from the reservations section */
+}
+
+/* ... (Remaining CSS rules) */
+
